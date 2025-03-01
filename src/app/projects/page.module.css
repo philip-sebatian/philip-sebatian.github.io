@@ -1,0 +1,43 @@
+.main{
+    background-color: #2E3440;
+    margin: 1vh 1vw;
+}
+
+.title{
+    font-size:5rem;
+    padding-bottom: 2vh;
+}
+
+.bodyContainer{
+    padding-top: 2vh;
+    display: grid;
+    place-items: stretch;
+    grid-template-columns: repeat(auto-fill,minmax(25vw,1fr));
+    grid-gap: 10px;
+}
+
+.repo{
+    margin-top: 2vh;
+    display: block;
+    width: fit-content;
+    align-self: center;
+    padding: 1vh 1vw;
+    border: #ECEFF4 1px solid;
+    border-radius: 1vh;
+    color: #ECEFF4;
+    text-decoration: none;
+}
+
+.repo a{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px){
+    .bodyContainer {
+        grid-template-columns: max-content;
+        place-items: center;
+    }
+}
+
+
+

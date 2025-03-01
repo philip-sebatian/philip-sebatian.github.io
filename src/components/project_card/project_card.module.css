@@ -1,0 +1,69 @@
+.card{
+    width:30vw;
+    height: fit-content;
+    max-width: 30vw;
+    background-color: #1e1e1e;
+    margin: 1vh 1vw;
+    border-radius: 1vh;
+}
+.textContainer{
+    padding: 2vh 2vw;
+    white-space: nowrap;
+}
+
+
+.title{
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+.description{
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.tech{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.technologies{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    background-color: #ECEFF4;
+    color: #2E3440;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+.smolCircle{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    background-color: red;
+}
+.icon{
+    width: 1.5rem;
+    margin: 1rem 1rem 0 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .card{
+        width: 95vw;
+        max-width: 95vw;
+    }
+
+    .textContainer{
+        margin: 2vh 2vw;
+        white-space: normal;
+    }
+
+    .technologies{
+        margin-bottom: 1rem;
+    }
+}

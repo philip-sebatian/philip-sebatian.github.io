@@ -1,0 +1,49 @@
+.hero{
+    box-sizing: border-box;
+    padding-left: 5vw;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.salutation{
+    font-size: 7rem;
+    font-weight: 700;
+    color: #ECEFF4;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #ECEFF4;
+}
+
+.name{
+    font-size: 15rem;
+    font-weight: 700;
+    color: #ECEFF4;
+}
+
+.description{
+    font-size: 5rem;
+    font-weight: 400;
+    color: #ECEFF4;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #ECEFF4;
+}
+
+@media screen and (max-width: 1000px){
+    .hero{
+        min-height: 80vh;
+        padding-left: 0;
+        padding-top: 5vh;
+        align-items: center;
+    }
+    .salutation{
+        font-size: 3rem;
+    }
+    .name{
+        font-size: 7rem;
+    }
+    .description{
+        font-size: 2rem;
+    }
+}
